@@ -11,3 +11,7 @@
 #include "int2.h"
 #include "int3.h"
 #include "int4.h"
+
+#include "uint2.h"
+#include "uint3.h"
+#include "uint4.h"
