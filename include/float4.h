@@ -6,7 +6,7 @@
 
 #include "pch.h"
 
-namespace cg_math {
+namespace cgmath {
 
 struct float4
 {
@@ -60,5 +60,5 @@ struct float4
 
 static_assert(sizeof(float4) == sizeof(float) * 4, "float4 must be 16 bytes");
 
-} // namespace cg_math
+} // namespace cgmath
 

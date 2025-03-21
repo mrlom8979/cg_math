@@ -6,7 +6,7 @@
 
 #include "pch.h"
 
-namespace cg_math {
+namespace cgmath {
 
 struct int3 {
   int32_t x, y, z;
@@ -31,5 +31,5 @@ struct int3 {
   }
 };
 
-} // namespace cg_math
+} // namespace cgmath
 

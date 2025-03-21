@@ -20,7 +20,12 @@
 #include "vector3.h"
 #include "vector4.h"
 
-namespace cg_math {
+#include "matrix3x3.h"
+#include "matrix3x4.h"
+#include "matrix4x3.h"
+#include "matrix4x4.h"
+
+namespace cgmath {
 
 constexpr float PI        = 3.14159265358979323846f;
 constexpr float TWO_PI    = 6.28318530717958647692f;
@@ -109,4 +114,4 @@ constexpr uint2 ONE_UINT2     = {1, 1};
 constexpr uint3 ONE_UINT3     = {1, 1, 1};
 constexpr uint4 ONE_UINT4     = {1, 1, 1, 1};
 
-} // namespace cg_math
+} // namespace cgmath

@@ -6,7 +6,7 @@
 
 #include "pch.h"
 
-namespace cg_math {
+namespace cgmath {
 
 struct alignas(16) vector4
 {
@@ -67,5 +67,5 @@ struct alignas(16) vector4
 
 static_assert(sizeof(vector4) == 16, "vector4 must be 16 bytes");
 
-} // namespace cg_math
+} // namespace cgmath
 
