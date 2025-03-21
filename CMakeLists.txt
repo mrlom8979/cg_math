@@ -16,6 +16,9 @@ else()
   add_library(cg_math STATIC ${CG_MATH_SOURCES} ${CG_MATH_HEADERS})
 endif()
 
+# Добавление предкомпилированных заголовков (если используется pch.h)
+target_precompile_headers(cg_math PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/pch.h")
+
 # Установка директорий для заголовочных файлов
 target_include_directories(cg_math PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
 
